@@ -1,0 +1,20 @@
+{
+  // F5 : lance l'app avec la clé Gemini du fichier local env.json
+  // (env.json est ignoré par Git ; ce fichier-ci ne contient aucun secret).
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "smart_pet (Gemini)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "toolArgs": ["--dart-define-from-file=env.json"]
+    },
+    {
+      "name": "smart_pet (hors ligne)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    }
+  ]
+}

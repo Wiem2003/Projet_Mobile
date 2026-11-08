@@ -1,0 +1,3 @@
+Roboto (Roboto-Regular.ttf, Roboto-Bold.ttf) — Copyright 2011 Google Inc.
+Licence Apache 2.0 : http://www.apache.org/licenses/LICENSE-2.0
+Utilisée pour les accents français du rapport mensuel PDF.
